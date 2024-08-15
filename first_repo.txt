@@ -8,3 +8,7 @@ use git add <file> ,to add the file to staging area,
     Non-empty folders: If a folder contains at least one file, using git add . will add the folder along with its files to the staging area.
 
     Empty folders: Git doesn't track empty folders, so if a folder is empty, it won't be added to the staging area, even if you use git add .....
+
+use git restore <file> , will provide u back the original file with discarded changes
+
+use git rm --cached <file>, is use to return the file from staging area to changes section.
