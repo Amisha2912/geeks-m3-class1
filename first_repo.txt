@@ -1,0 +1,10 @@
+use git init, to initialize git repository.
+
+use git status,to know the status of the repository.
+
+use git add <file> ,to add the file to staging area, 
+    git add . , to add  both files and folders (directories) to the staging area.
+
+    Non-empty folders: If a folder contains at least one file, using git add . will add the folder along with its files to the staging area.
+
+    Empty folders: Git doesn't track empty folders, so if a folder is empty, it won't be added to the staging area, even if you use git add .....
