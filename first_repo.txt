@@ -14,6 +14,7 @@ use git restore <file> , will provide u back the original file with discarded ch
 use git rm --cached <file>, is use to return the file from staging area to changes section.
 
 Next step is to push local repo(my device) to remote repo(github)
+
 create repo in github
 git remote add origin <remote repo address>
 git remote -v , to check connection made or not
