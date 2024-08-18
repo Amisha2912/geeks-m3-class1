@@ -1,1 +1,3 @@
 this is the file generated in feature-branch.
+now we are learning about git diff command.
+we will also see how it works.
